@@ -32,6 +32,8 @@ public class PippoApplication extends Application {
             }
 
             routeContext.setLocal("greeting from feature plugin", message);
+
+            //without version
             routeContext.render("hello");
         });
     }
