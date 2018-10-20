@@ -31,7 +31,7 @@ public class PippoApplication extends Application {
                 message = getMessages().get("pippo.greeting", lang);
             }
 
-            routeContext.setLocal("greeting", message);
+            routeContext.setLocal("greeting from feature plugin", message);
             routeContext.render("hello");
         });
     }
