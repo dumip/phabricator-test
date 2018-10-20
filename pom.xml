@@ -168,6 +168,14 @@
                             <mainClass>${main.class}</mainClass>
                         </configuration>
                     </plugin>
+                    <plugin>
+                        <groupId>com.amashchenko.maven.plugin</groupId>
+                        <artifactId>gitflow-maven-plugin</artifactId>
+                        <version>1.10.0</version>
+                        <configuration>
+                            <developmentBranch>develop</developmentBranch>
+                        </configuration>
+                    </plugin>
                 </plugins>
             </build>
 
