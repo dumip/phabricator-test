@@ -35,6 +35,8 @@ public class PippoApplication extends Application {
 
             //without version
             routeContext.render("hello");
+
+	    //dumi-test-feature
         });
     }
 
