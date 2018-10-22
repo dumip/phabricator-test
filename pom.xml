@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.mindit</groupId>
     <artifactId>phabricator-test</artifactId>
-    <version>1.0.0-dumi-test-feature-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>${packaging.type}</packaging>
     <name>quickstart</name>
     <description>A Pippo application</description>
